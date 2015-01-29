@@ -1,0 +1,22 @@
+body {
+    font: 100% Verdana;
+    margin: 50px auto;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    color: red;
+    font-size: 2.0em;
+}
+#sentence {
+    font-size: 4em;
+}
+#another1 {
+    color: blue;
+}
+#another {
+    font-size: 2em;
+}
+footer {
+    font-size: 0.75em;
+}
