@@ -1,0 +1,45 @@
+body { background-color: #0000FF; }
+
+@-moz-keyframes mymove {
+	0%	{opacity: 0;}
+	50%	{opacity: 0.5;}
+	100%	{opacity: 1;}
+}
+
+#sandbox {
+	font: 16px "goudy-bookletter-1911-1","goudy-bookletter-1911-2","Baskerville","Georgia",serif;
+	border: 5px solid;
+	border-radius: 15px;
+	border-color: rgba(21,11,11,0.2);
+	overflow: hidden;
+	margin: 40px 0 0 30px;
+	padding: 20px;
+	width: 440px;
+	z-index: 2;
+	color: rgba(0,0,0,0.6);
+	box-shadow: 0 0 20px white;
+	/*background-color: rgba(180,180,140,0.6);*/
+	background: linear-gradient(to bottom, #444444,#999999);
+	-moz-animation: mymove 5s infinite;
+}
+
+#sandbox header {
+	margin: 0 0 20px 0;
+	font-size: 56px;
+	word-spacing: 2px;
+}
+
+#sandbox header abbr {
+	cursor: help;
+	font-size: 1.3em;
+	color: #FF2166;
+	border-bottom: #888 1px dashed;
+	text-shadow: 0 0 20px #333;
+}
+
+#sandbox p {
+	font-size: 30px;
+	line-height: 50px;
+	margin: 0px;
+	width: auto;
+}
