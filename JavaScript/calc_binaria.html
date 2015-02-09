@@ -2,14 +2,17 @@
 <html>
 <head>
 	<title>Calculadora binaria - Samuel Salcedo Orellana</title>
+	<link rel="stylesheet" type="text/css" href="calc_binaria.css" />
 	<script type="text/javascript" charset="utf-8" src="calc_binaria.js"></script>
 </head>
 <body>
 	<div id="calculator">
-		<span id="display"></span>
+		<div>
+			<span id="display"></span>
+		</div>
 		<p>
-			<a id="delete" href="javascript:pressDel()">DEL</a>
-			<a id="clear" href="javascript:pressAc()">AC</a>
+			<a class="functions" id="delete" href="javascript:pressDel()">DEL</a>
+			<a class="functions" id="clear" href="javascript:pressAc()">AC</a>
 		</p>
 		<p>
 			<a class="number" href="javascript:pressNum('1')">1</a>

@@ -1,0 +1,54 @@
+#calculator {
+	width: 100px;
+	height: 140px;
+	background-color: rgb(94,94,94);
+	margin-left: 100px;
+	margin-top: 50px;
+	padding-left: 8px;
+	padding-top: 5px;
+	border: 5px outset;
+}
+
+#calculator div {
+	border: black 1px solid;
+	background-color: rgb(145,199,103);
+	overflow: hidden;
+	width: 90px;
+	height: 20px;
+}
+
+#calculator .functions {
+	border-radius: 5px;
+	color: black;
+}
+
+#delete {
+	border: rgb(217,11,4) 2px outset;
+	background-color: rgb(217,11,4);
+	margin-top: 100px;
+	padding: 0 3px 0 3px;
+}
+
+#clear  {
+	border: rgb(247,215,54) 2px outset;
+	padding: 0 8px 0 8px;
+	background-color: rgb(247,215,54); 
+	border: 2px outset;
+}
+
+#calculator .number, #add {
+	border: rgb(199,199,199) 2px outset;
+	border-radius: 5px;
+	padding: 0 7px 0 7px;
+	background-color: rgb(199,199,199);
+	color: black;
+}
+
+#sol {
+	border: rgb(247,215,54) 2px outset;
+	border-radius: 5px;
+	padding: 0 38px 0 38px;
+	background-color: rgb(247,215,54);
+	color: black;
+}
+
