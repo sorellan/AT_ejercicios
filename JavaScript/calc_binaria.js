@@ -50,16 +50,27 @@ function pressNum(num) {
 }
 
 function pressAdd() {
-	firstnum = false;
-	clearDisplay();
+	if (num1 == '') {
+		alert('No has introducido ningún número');
+	} else if (num2 != '') {
+		alert('Ya has introducido dos números\nPulsa "=" o reinicia la cuenta con "AC"')
+	} else {
+		firstnum = false;
+		clearDisplay();
+	}
 }
 
 function pressEqual() {
-	var result = parseInt(num1, 2) + parseInt(num2, 2);
-	var result_bin = dec2bin(result);
-	if (result_bin == '') {
-		setDisplay('0');
+	if (num1 == '' || num2 == ''){
+		alert('No has introducido uno o ningún número\nSe reinicia la operación');
+		pressAc();
 	} else {
-		setDisplay(result_bin);
+		var result = parseInt(num1, 2) + parseInt(num2, 2);
+		var result_bin = dec2bin(result);
+		if (result_bin == '') {
+			setDisplay('0');
+		} else {
+			setDisplay(result_bin);
+		}
 	}
 }

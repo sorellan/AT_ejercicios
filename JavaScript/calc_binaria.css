@@ -3,10 +3,11 @@
 	height: 140px;
 	background-color: rgb(94,94,94);
 	margin-left: 100px;
-	margin-top: 50px;
+	margin-top: 80px;
 	padding-left: 8px;
 	padding-top: 5px;
 	border: 5px outset;
+	transform: scale(1.5);
 }
 
 #calculator div {
@@ -15,6 +16,7 @@
 	overflow: hidden;
 	width: 90px;
 	height: 20px;
+	text-align: right;
 }
 
 #calculator .functions {
@@ -33,7 +35,6 @@
 	border: rgb(247,215,54) 2px outset;
 	padding: 0 8px 0 8px;
 	background-color: rgb(247,215,54); 
-	border: 2px outset;
 }
 
 #calculator .number, #add {
