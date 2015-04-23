@@ -1,0 +1,16 @@
+{
+     "name": "Leafleft App",
+     "description": "Leafleft geolocation",
+     "launch_path": "/~sorellan/index.html",
+     "version": "1.0",
+     "developer": {
+          "name": "Samuel Salcedo",
+          "url": "https://github.com/sorellan"
+     },
+     "default_locale": "en",
+     "permissions": {
+     	"geolocation": {
+			"description": "Access to your position"
+		}
+	 }
+}
